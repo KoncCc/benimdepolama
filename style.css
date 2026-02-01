@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+body{
+	margin:0px;
+	background-image:url('https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v4.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1,h2,h3,h4,p,a{
+	font-family: 'Niramit', sans-serif;
+}
+
+.nav-text{
+	color:white;
+	font-size:1.2em;
+	margin:10px;
+}
+
+
+.navbar{
+	border:1px solid black;
+	background:black;
+	margin:0px;
+	padding:0px;
+  height: 30px;
+}
+
+.navbar > .center-text{
+	float:center;
+	overflow: auto;
+	margin: 0;
+}
+
+.navbar > .right-text{
+	float:right;
+	overflow: auto;
+	margin: 0;
+	margin-right: 50px;
+}
+
+.left-nav{
+	padding: 3px;
+	position: fixed;
+	left: 0;
+	top: 25%;
+	width: 50px;
+	background: rgb(0, 0, 0, 0.5);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+p .left-nav-item{
+	padding: 3px;
+	width: 35px;
+	height: 35px;
+}
+
+p .left-nav-item,.nav-text:hover{
+	cursor: pointer;
+}

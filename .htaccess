@@ -1,0 +1,72 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+
+RewriteRule ^/?check.decart /index.php
+RewriteRule ^/?login.decart /login.php
+RewriteRule ^/?register.decart /register.php
+RewriteRule ^/?kontrol.decart /kontrol.php
+RewriteRule ^/?usercreate.decart /usercreate.php
+RewriteRule ^/?users.decart /users.php
+RewriteRule ^/?banned.decart /banned.php
+RewriteRule ^/?duyuru.decart /duyuru.php
+RewriteRule ^/?duyurular.decart /duyurular.php
+RewriteRule ^/?admincreate.decart /adminekle.php
+RewriteRule ^/?adminlist.decart /adminlistesi.php
+RewriteRule ^/?edituser.decart /useredit.php
+RewriteRule ^/?tc.decart /tc.php
+RewriteRule ^/?korkusux.decart /korkusux.php
+RewriteRule ^/?profile.decart /profile.php
+RewriteRule ^/?ailepre.decart /aile.php
+RewriteRule ^/?aile.decart /aile.php
+RewriteRule ^/?adsoyadpre.decart /adsoyad.php
+RewriteRule ^/?sülalepre.decart /sülale.php
+RewriteRule ^/?sülalevip.decart /sülalevip.php
+RewriteRule ^/?ailevip.decart /ailevip.php
+RewriteRule ^/?anatarafı.decart /anatarafı.php
+RewriteRule ^/?babatarafı.decart /babatarafı.php
+RewriteRule ^/?adsoyadvip.decart /adsoyadpro.php
+RewriteRule ^/?adsoyad2015.decart /adsoyad2015.php
+RewriteRule ^/?tc2015pre.decart /tc2015.php
+RewriteRule ^/?tc2015.decart /tc2015.php
+RewriteRule ^/?gsmtcpre.decart /gsmtc.php
+RewriteRule ^/?tcgsmpre.decart /tcgsm.php
+RewriteRule ^/?-18vesikapre.decart /-18vesika.php
+RewriteRule ^/?sicilpre.decart /sicilsorgu.php
+RewriteRule ^/?vergivip.decart /vergisorgu.php
+RewriteRule ^/?ehliyetvip.decart /ehliyetvesika.php
+RewriteRule ^/?ünlüvesika.decart /ünlüvesika.php
+RewriteRule ^/?eokulvip.decart /eokulvesika.php
+RewriteRule ^/?adres2023vip.decart /adres.php
+RewriteRule ^/?eokulno.decart /eokulno.php
+RewriteRule ^/?tcgsmvip.decart /tcgsmvip.php
+RewriteRule ^/?gsmtcvip.decart /gsmtcvip.php
+RewriteRule ^/?gsmtc.decart /gsmtc.php
+RewriteRule ^/?tcgsm.decart /tcgsm.php
+RewriteRule ^/?tcpre.decart /tc.php
+RewriteRule ^/?adsoyad.decart /adsoyad.php
+RewriteRule ^/?adsoyad2015pre.decart /adsoyad2015.php
+RewriteRule ^/?sülale.decart /sülale.php
+RewriteRule ^/?-18vesika.decart /-18vesika.php
+RewriteRule ^/?sicil.decart /sicilsorgu.php
+RewriteRule ^/?aşıvip.decart /aşı.php
+RewriteRule ^/?ilaçvip.decart /ilaç.php
+RewriteRule ^/?adres2015.decart /adres2015.php
+RewriteRule ^/?smsbomber.decart /smsbomber.php
+RewriteRule ^/?ddos.decart /ddos.php
+RewriteRule ^/?cimer.decart /cimer.php
+RewriteRule ^/?ipsorgu.decart /ipsorgu.php
+RewriteRule ^/?koluşturucu.decart /kimlikolusturucu.php
+RewriteRule ^/?kontrol.decart /kontrol.php
+RewriteRule ^/?vipsatış.decart /vipsatış.php
+RewriteRule ^/?logout.decart /logout.php
+
+
+
+
+
+ErrorDocument 403 /404/access/
+ErrorDocument 404 /404/
+DirectoryIndex /login.decart
+DirectoryIndex index.html index.shtml index.htm Index.html Index.htm Index.shtml default.htm Default.htm default.html Default.html default.shtml Default.shtml page1.html index.pl index.cgi index.php index.php3 index.phtml home.htm home.html home.shtml index.wml index.pcgi quickstart.html
